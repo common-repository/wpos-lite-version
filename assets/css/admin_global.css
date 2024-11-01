@@ -1,0 +1,58 @@
+.wp-list-table #op_source{
+    width: 20px!important;
+}
+.op-product-outlet-stock-variation,
+.op-product-outlet-stock{
+    background: #4CAF50;
+    color: #fff;
+    padding:5px;
+}
+.op-product-outlet-stock-variation table,
+.op-product-outlet-stock table{
+    background-color: transparent!important;
+    border: solid 1px #fff;
+    margin-left: 8px;
+    border-collapse: collapse;
+
+}
+.op-product-outlet-stock-variation table td,
+.op-product-outlet-stock table td{
+    padding: 5px!important;
+    border: solid 1px #fff!important;
+
+}
+.op-product-outlet-stock-variation table td p,
+.op-product-outlet-stock table td p{
+    background: transparent!important;
+    padding: 0;
+    margin: 0!important;
+}
+.op-product-outlet-stock-variation{
+    display: inline-block;
+    width: 100%;
+
+}
+.op-stock-label{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.op-outlet-variation-stock-row{
+    padding: 10px;
+}
+.op-outlet-variation-stock-row input{
+    display: inline-block;
+    max-width: 200px;
+    margin-left: 5px!important;
+}
+.op-outlet-variation-stock-row:nth-child(odd)
+{
+    background-color: #e7f7e74a;
+}
+.op-order-number:hover,
+.op-order-number{
+    font-weight: bold;
+    text-decoration: none;
+}
+.op-order-number:hover{
+    color: red;
+}
